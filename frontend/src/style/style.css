@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.root {
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.menuButton {
+    margin-right: 2rem;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.card-root {
+    max-width: 345px;
+    margin: 20px;
+}
+
+.createBook-from {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-submit {
+    margin: 3px 0px 2px;
+}
+
+.error {
+    color: red;
+}
+
+.backdrop {
+    z-index: 99999 !important;
+}
+
+.noBookData {
+    width: 70%;
+    height: 150px;
+    margin: auto;
+}
+
+.createBookData {
+    margin: auto;
+}
+
+.publicBookCard {
+    width: 70%;
+    margin: auto;
+}
+.media{
+    width: 350px;
+    height: 100%;
+    min-height: 180px;
+    object-fit: fill;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: -4px;
+}

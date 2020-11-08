@@ -1,0 +1,9 @@
+export const REGISTER = "REGISTER";
+export const LOGIN = "LOGIN";
+export const LOGOUT = "LOGOUT";
+export const CREATEBOOK = "CREATEBOOK";
+export const ALLBOOK = "ALLBOOK";
+export const DELETEBOOK = "DELETEBOOK";
+export const UPDATEBOOK = "UPDATEBOOK";
+export const FATCHING = "FATCHING ";
+export const PUBLICBOOK = "PUBLICBOOK";

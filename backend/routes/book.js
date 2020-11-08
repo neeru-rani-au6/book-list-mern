@@ -1,0 +1,11 @@
+var express = require('express');
+var router = express.Router();
+var { createBook, getAllBook, updateBook, Delete,getOneBook ,getAllPublicBook} = require("../controller/book");
+var {validateToken} = require("../middleware/authentication");
+router.post("/", validateToken,createBook);
+router.get("/all",getAllPublicBook);
+router.delete("/:id",validateToken, Delete);
+ router.get("/:id",validateToken, getOneBook);
+router.put("/:id",validateToken, updateBook);
+router.get("/",validateToken, getAllBook);
+module.exports = router;
